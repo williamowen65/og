@@ -90,7 +90,7 @@ export const allCards = [
     imgSrc={(<img
       src='https://images.unsplash.com/photo-1614069565320-172174347232?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8ZnVubnl8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60' alt="Dfsd"
       style={{
-        width: 'auto'
+        transform: 'scale(1.3)'
       }}
     />)}
     pretext="Get street cred"
@@ -131,7 +131,7 @@ export const allCards = [
     imgSrc={(<img
       src='https://images.unsplash.com/photo-1531379410502-63bfe8cdaf6f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80' alt="Dfsd"
       style={{
-        width: 'auto'
+        transform: 'scale(1.3)'
       }}
     />)}
     pretext="You can do it"
