@@ -19,6 +19,7 @@ node {
         sh 'git add .'
         sh 'git stash'
        sh 'git switch main'
+       sh 'echo "creating a new file" > sample.txt'
        sh 'npm install --legacy-peer-deps'
       //  sh 'git commit -am "Jenkins updating docs folder for github pages"'
        sh 'npm run build'
@@ -28,7 +29,6 @@ node {
        sh 'git config --global user.name "williamowen65"'
        sh 'git remote -v'
        sh 'git branch'
-       sh 'echo "creating a new file" > sample.txt'
        sh 'git commit -am "Jenkins updating docs folder for github pages"'
        sh 'git push -u origin main --force'
 
