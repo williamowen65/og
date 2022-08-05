@@ -18,7 +18,8 @@ export default function Home() {
   return (
     <HomeStyled>
       <p>Create and edit cards directly in github by <a href="https://github.com/williamowen65/og/blob/main/src/features/displayCard/layoutStyles/carousel/randomData/CardArchive.js"> following this link </a></p>
-      <p>Protip: Once there, while in github repo the browser, press ·</p>
+      <p>Protip: When your browser is at the github repo, press ·</p>
+
 
       <DisplayCard
         type='carousel'

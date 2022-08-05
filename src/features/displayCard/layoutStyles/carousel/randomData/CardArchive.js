@@ -24,7 +24,7 @@ export const allCards = [
       />)}
       pretext="Are you up for a challenge?"
       attributes={[A.STRENGTH, A.ENDURANCE]}
-      link={"example.com"}
+      link={"http://www.example.com"}
       callToAction="Accept Challenge"
       id={idGen.next().value}
     >
@@ -51,7 +51,7 @@ export const allCards = [
     />)}
     pretext="Hello world"
     attributes={[A.STEALTH, A.VIRTUE]}
-    link={"example.com"}
+    link={"http://www.example.com"}
     callToAction="Accept Challenge"
     id={idGen.next().value}
 
@@ -71,7 +71,7 @@ export const allCards = [
     />)}
     pretext="Hello world"
     attributes={['refs to an ENUM list']}
-    link={"example.com"}
+    link={"http://www.example.com"}
     callToAction="Accept Challenge"
     id={idGen.next().value}
 
@@ -91,7 +91,7 @@ export const allCards = [
     />)}
     pretext="Hello world"
     attributes={['refs to an ENUM list']}
-    link={"example.com"}
+    link={"http://www.example.com"}
     callToAction="Accept Challenge"
     id={idGen.next().value}
 
@@ -111,7 +111,7 @@ export const allCards = [
     />)}
     pretext="Hello world"
     attributes={['refs to an ENUM list']}
-    link={"example.com"}
+    link={"http://www.example.com"}
     callToAction="Accept Challenge"
     id={idGen.next().value}
 
@@ -131,7 +131,7 @@ export const allCards = [
     />)}
     pretext="Hello world"
     attributes={['refs to an ENUM list']}
-    link={"example.com"}
+    link={"http://www.example.com"}
     callToAction="Accept Challenge"
     id={idGen.next().value}
 
@@ -151,7 +151,7 @@ export const allCards = [
     />)}
     pretext="Hello world"
     attributes={['refs to an ENUM list']}
-    link={"example.com"}
+    link={"http://www.example.com"}
     callToAction="Accept Challenge"
     id={idGen.next().value}
 
