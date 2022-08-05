@@ -16,9 +16,9 @@ node {
    }
    stage('update docs') {
       nodejs(nodeJSInstallationName: 'nodejs') {
-       sh 'npm install --legacy-peer-deps'
-       sh 'git commit -am "Jenkins updating docs folder for github pages"'
        sh 'git switch main'
+       sh 'npm install --legacy-peer-deps'
+      //  sh 'git commit -am "Jenkins updating docs folder for github pages"'
        sh 'npm run build'
        sh 'git config --global user.email "islandhopper152@gmail.com"'
        sh 'git config --global user.name "williamowen65"'
