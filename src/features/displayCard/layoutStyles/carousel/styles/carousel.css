@@ -167,7 +167,7 @@ body {
   transition: opacity 0.5s;
 }
 .carousel section .projectCard a:not(.disinherit).visitLink {
-  left: -2%;
+  left: 0%;
   bottom: 0;
   padding: 5px;
   transition: background 0.5s;
