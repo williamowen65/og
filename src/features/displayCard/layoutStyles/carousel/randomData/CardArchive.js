@@ -10,7 +10,7 @@ export const allCards = [
   (() => {
 
     const UniqueCardStyle = styled.div`
- 
+
       h4 {
         color: red !important
       }
@@ -25,6 +25,10 @@ export const allCards = [
           margin: 0 auto !important;
           user-select: text !important;
         }
+      }
+      .tip {
+        border: 1px solid black !important;
+        padding: 7px;
       }
     `
     return (<Card
@@ -47,7 +51,7 @@ export const allCards = [
         <p>Create 5 cards!</p>
         <p>Follow the link and commit your changes.</p>
         <p>That's it. </p>
-
+        <p className="tip">Tip: Click the Earth to edit that card specifcally (??)</p>
         <hr />
         <h5>Card component template</h5>
         <code>
