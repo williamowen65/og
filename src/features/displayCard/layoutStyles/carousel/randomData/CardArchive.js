@@ -24,14 +24,16 @@ export const allCards = [
       />)}
       pretext="Are you up for a challenge?"
       attributes={[A.STRENGTH, A.ENDURANCE]}
-      link={"http://www.example.com"}
-      callToAction="Accept Challenge"
+      link={"https://github.dev/williamowen65/og/blob/main/src/features/displayCard/layoutStyles/carousel/randomData/CardArchive.js"}
+      callToAction="Accept"
       id={idGen.next().value}
     >
       <UniqueCardStyle>
 
         <h4>First Challenge</h4>
         <p>Create 5 cards!</p>
+        <p>Follow the link and commit your changes.</p>
+        <p>That's it. </p>
       </UniqueCardStyle>
     </Card>)
   })(),
@@ -55,7 +57,10 @@ export const allCards = [
 
   >
     <h4>Header</h4>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi odit cupiditate explicabo consequuntur officiis dicta? Non, error voluptas veniam, exercitationem molestiae doloremque vero assumenda labore esse aliquid reprehenderit. Laborum temporibus vitae eius amet id quibusdam ab sit deleniti. Commodi aliquam consectetur nulla voluptas voluptates, quas aperiam, cumque, dolorem totam incidunt voluptatum! Dignissimos neque animi eaque maiores possimus. Possimus iusto aspernatur animi perspiciatis unde reiciendis asperiores voluptatum reprehenderit, consectetur, eveniet neque modi. Id facilis saepe repellat, voluptatibus cupiditate molestiae at sit pariatur optio, molestias culpa iusto aperiam vero nisi laudantium aliquid autem eveniet laborum reprehenderit quisquam deserunt architecto enim! Ipsum, repellendus.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, ab accusamus nisi labore libero quis natus distinctio repellat placeat recusandae.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, ab accusamus nisi labore libero quis natus distinctio repellat placeat recusandae.</p>
+    <hr />
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, ab accusamus nisi labore libero quis natus distinctio repellat placeat recusandae.</p>
   </Card>,
   <Card
     title="Wasdssdfdsf"
