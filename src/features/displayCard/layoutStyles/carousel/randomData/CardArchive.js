@@ -107,14 +107,14 @@ export const allCards = [
     <p>Take action.</p>
   </Card>,
   <Card
-    title="Wasdssdfdsf"
+    title="Take a bubble bath"
     imgSrc={(<img
       src='https://images.unsplash.com/photo-1498940757830-82f7813bf178?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80' alt="Dfsd"
       style={{
         width: 'auto'
       }}
     />)}
-    pretext="Hello world"
+    pretext="...in a plastic world"
     attributes={['refs to an ENUM list']}
     link={"http://www.example.com"}
     callToAction="Accept Challenge"
@@ -147,14 +147,14 @@ export const allCards = [
     <p>This is the test for body text</p>
   </Card>,
   <Card
-    title="Take a bubble bath"
+    title="dfdsfsd"
     imgSrc={(<img
       src='https://images.unsplash.com/photo-1659264734757-e87d622e76ac?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1068&q=80' alt="Dfsd"
       style={{
         width: 'auto'
       }}
     />)}
-    pretext="...in plastic"
+    pretext="fdfsd"
     attributes={['refs to an ENUM list']}
     link={"http://www.example.com"}
     callToAction="Accept Challenge"
