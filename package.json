@@ -8,7 +8,7 @@
     "build-dark": "webpack --env dark=true",
     "dev": "webpack-dev-server",
     "test": "jest",
-    "install": "npm i @babel/core @babel/preset-env babel-loader url-loader webpack webpack-cli webpack-dev-server jest html-webpack-plugin @babel/preset-react style-loader css-loader sass-loader sass @testing-library/jest-dom @testing-library/react @testing-library/user-event -D && npm i react react-dom react-router-dom styled-components react-icons react-redux @reduxjs/toolkit gsap && npm i react-use-dimensions --legacy-peer-deps"
+    "deploy": "npm run build"
   },
   "keywords": [],
   "author": "",
