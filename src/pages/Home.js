@@ -16,13 +16,21 @@ export default function Home() {
 
   // console.log(allCards);
   return (
-    <DisplayCard
-      type='carousel'
-      title="Gameplay Cards"
-      data={allCards}
-    />
+    <HomeStyled>
+      <p>Create and edit cards directly in github by <a href="https://github.com/williamowen65/og/blob/main/src/data/randomData/CardArchive.js"> following this link </a></p>
+      <DisplayCard
+        type='carousel'
+        title="Gameplay Cards"
+        data={allCards}
+      />
+    </HomeStyled>
   )
 }
 
+const HomeStyled = styled.div`
+  a {
+    text-shadow: 0px 0px #ff0000;
+  }
+`
 
 
