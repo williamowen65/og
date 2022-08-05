@@ -139,7 +139,7 @@ const CardItem = ({
             className='visitLink'
             ref={visitLink}
           >
-            Accept Challenge
+            Accept
           </a>
         )}
     </div>

@@ -30,10 +30,8 @@ export const allCards = [
     >
       <UniqueCardStyle>
 
-        <h4>Title</h4>
-        <p>This is the test for body text</p>
-        <p>This is the test for body text</p>
-        <p>This is the test for body text</p>
+        <h4>First Challenge</h4>
+        <p>Create 5 cards!</p>
       </UniqueCardStyle>
     </Card>)
   })(),
@@ -42,7 +40,7 @@ export const allCards = [
 
 
   <Card
-    title="Wasds<br/>sdfdsf"
+    title="Some Card"
     imgSrc={(<img
       src='https://images.unsplash.com/photo-1657299156791-44140a28a518?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHwxfHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=900&q=60' alt="Dfsd"
       style={{
@@ -56,10 +54,8 @@ export const allCards = [
     id={idGen.next().value}
 
   >
-    <h4>Title</h4>
-    <p>This is the test for body text</p>
-    <p>This is the test for body text</p>
-    <p>This is the test for body text</p>
+    <h4>Header</h4>
+    <p>sdsad</p>
   </Card>,
   <Card
     title="Wasdssdfdsf"
