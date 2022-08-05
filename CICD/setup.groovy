@@ -15,7 +15,7 @@ pipelineJob('outside-games') {
     triggers {
         // githubPush()
         pollSCM{
-            scmpoll_spec('H/1 * * * *')
+            scmpoll_spec('* * * * *')
         }
     }
 
