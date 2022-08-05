@@ -17,7 +17,7 @@ export default function Home() {
   // console.log(allCards);
   return (
     <HomeStyled>
-      <p>Create and edit cards directly in github by <a href="https://github.dev/williamowen65/og/blob/main/src/features/displayCard/layoutStyles/carousel/randomData/CardArchive.js"> following this link </a></p>
+      <p>Create and edit cards directly in github by <a target="_blank" href="https://github.dev/williamowen65/og/blob/main/src/features/displayCard/layoutStyles/carousel/randomData/CardArchive.js"> following this link </a></p>
 
 
       <DisplayCard
