@@ -42,7 +42,7 @@ export default function App(props) {
         <Header>Outside.games </Header>
         <MainContainer className="main">
           <Routes>
-            <Route path="/" element={<Home />} />
+            <Route path="/og" element={<Home />} />
             {configValues.specialFeatures.auth && <Route path="/auth" element={<Login />} />}
             {configValues.specialFeatures.showFeatures && <Route path='/features' element={<Features />} />}
             <Route path={"/about"} element={<About />} />
