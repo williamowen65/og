@@ -1,0 +1,15 @@
+name: 'Build Docs'
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+
+jobs:
+  print:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Running!"
+      - run: echo "npm run build"
