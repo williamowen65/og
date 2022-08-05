@@ -1,10 +1,10 @@
-pipelineJob('portfolio') {
+pipelineJob('outside-games') {
     definition {
         cpsScm {
             scm {
                 git {
                     remote {
-                        github('williamowen65/portfolio')
+                        github('williamowen65/og')
                     }
                     branch('*/main')
                 }
