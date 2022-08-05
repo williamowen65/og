@@ -88,13 +88,17 @@ const CardItem = ({
   useEffect(() => {
     title.current.innerHTML = project.props.title;
   }, []);
-
+  console.log(project);
   return (
     <div className='projectCard' onClick={toggleDetails}>
       <picture>
         <img
           src={project.props.imgSrc.props.src}
-          style={project.props.imgSrc.props.style}
+          style={{
+            objectFit: 'cover',
+            height: '100%',
+            ...project.props.imgSrc.props.style
+          }}
           alt='#'
           onClick={toggleDetails}
           // onMouseDown={() => setDrag(true)}
