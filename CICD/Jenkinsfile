@@ -25,6 +25,8 @@ node {
 
        sh 'git config --global user.email "islandhopper152@gmail.com"'
        sh 'git config --global user.name "williamowen65"'
+       
+       sh 'git status'
        sh 'git add docs/'
   
        sh 'git commit -m "Jenkins updating docs folder for github pages"'
