@@ -1,4 +1,4 @@
-name: 'Build Docs'
+name: build-docs
 
 on:
   workflow_dispatch:
@@ -8,8 +8,11 @@ on:
 
 
 jobs:
-  print:
+  build-docs:
     runs-on: ubuntu-latest
     steps:
-      - run: echo "Running!"
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          node-version: '14'
       - run: npm run build
