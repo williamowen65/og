@@ -127,14 +127,14 @@ export const allCards = [
     <p>This is the test for body text</p>
   </Card>,
   <Card
-    title="Wasdssdfdsf"
+    title="Make a lightbulb glow <br/>with your mind"
     imgSrc={(<img
       src='https://images.unsplash.com/photo-1531379410502-63bfe8cdaf6f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80' alt="Dfsd"
       style={{
         width: 'auto'
       }}
     />)}
-    pretext="Hello world"
+    pretext="You can do it"
     attributes={['refs to an ENUM list']}
     link={"http://www.example.com"}
     callToAction="Accept Challenge"
