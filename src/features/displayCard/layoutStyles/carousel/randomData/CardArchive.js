@@ -22,7 +22,7 @@ export const allCards = [
 
         }}
       />)}
-      pretext="Hello world"
+      pretext="Are you up for a challenge?"
       attributes={[A.STRENGTH, A.ENDURANCE]}
       link={"example.com"}
       callToAction="Accept Challenge"
