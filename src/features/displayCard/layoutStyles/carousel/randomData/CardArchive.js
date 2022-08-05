@@ -86,25 +86,25 @@ export const allCards = [
 
 
   <Card
-    title="Some Card"
+    title="Pull a harmless prank"
     imgSrc={(<img
-      src='https://images.unsplash.com/photo-1657299156791-44140a28a518?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHwxfHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=900&q=60' alt="Dfsd"
+      src='https://images.unsplash.com/photo-1614069565320-172174347232?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8ZnVubnl8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60' alt="Dfsd"
       style={{
         width: 'auto'
       }}
     />)}
-    pretext="Hello world"
+    pretext="Get street cred"
     attributes={[A.STEALTH, A.VIRTUE]}
     link={"http://www.example.com"}
     callToAction="Accept Challenge"
     id={idGen.next().value}
 
   >
-    <h4>Header</h4>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, ab accusamus nisi labore libero quis natus distinctio repellat placeat recusandae.</p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, ab accusamus nisi labore libero quis natus distinctio repellat placeat recusandae.</p>
+    <h4>You'll know what to do</h4>
+    <p>Just go focus on the toilet.</p>
+    <p>Let the thoughts come</p>
     <hr />
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, ab accusamus nisi labore libero quis natus distinctio repellat placeat recusandae.</p>
+    <p>Take action.</p>
   </Card>,
   <Card
     title="Wasdssdfdsf"
