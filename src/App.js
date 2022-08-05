@@ -15,6 +15,7 @@ import { setScreenWidth } from './context/appReducer.js'
 import PageNotFound from './pages/PageNotFound.js'
 import About from './pages/About.js'
 import gsap from '../gsap/gsap.min.js'
+import Footer from './layouts/footer/Footer.js'
 // import GSDevTools from 'gsap/GSDevTools'
 // gsap.registerPlugin(GSDevTools)
 
@@ -54,6 +55,7 @@ export default function App(props) {
           </Routes>
         </MainContainer>
       </PageContainer>
+      <Footer />
     </Div>
   )
 }

@@ -6,8 +6,8 @@ body {
 .carousel {
   padding: 5px 10px;
   text-align: center;
-  height: 100vh;
-  padding-top: 10%;
+  height: 70vh;
+  padding-top: 0%;
 }
 .carousel header {
   display: flex;
