@@ -14,5 +14,6 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: '14'
-      - run: ls
+      - run: ls ~
+      - run: ls ~/home/runner/work/og/og/
       - run: npm run build
