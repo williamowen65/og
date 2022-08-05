@@ -48,7 +48,8 @@ export default function App(props) {
             <Route path={"/about"} element={<About />} />
             <Route path="*" element={(() => {
               return (
-                <Navigate to="/" replace={true} />
+                //temp from '/' for githubpages
+                <Navigate to="/og" replace={true} />
               )
             })()}>
             </Route>
