@@ -52,7 +52,6 @@ export default function App(props) {
                 <Navigate to="/" replace={true} />
               )
             })()}>
-
             </Route>
           </Routes>
         </MainContainer>
