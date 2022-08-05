@@ -145,10 +145,8 @@ export const allCards = [
     id={idGen.next().value}
 
   >
-    <h4>Title</h4>
-    <p>This is the test for body text</p>
-    <p>This is the test for body text</p>
-    <p>This is the test for body text</p>
+    <h4>Careful</h4>
+    <p>Don't explode!</p>
   </Card>,
   <Card
     title="dfdsfsd"
