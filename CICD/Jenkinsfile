@@ -18,7 +18,8 @@ node {
       nodejs(nodeJSInstallationName: 'nodejs') {
        sh 'npm install --legacy-peer-deps'
        sh 'npm run build'
-       sh 'git push s'
+       sh 'git commit -am "Jenkins updating docs folder for github pages"'
+       
      }
    } 
 
