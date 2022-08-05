@@ -86,7 +86,7 @@ const CardItem = ({
 
   const title = useRef();
   useEffect(() => {
-    title.current.innerHTML = title.current.innerText;
+    title.current.innerHTML = project.props.title;
   }, []);
 
   return (
