@@ -7,4 +7,4 @@ Contribute by creating game play cards in this file.
 
 [create/edit cards]( https://github.com/williamowen65/og/blob/main/src/data/randomData/CardArchive.js)
 
-[github pages](https://williamowen65.github.io/og/)
+[View Gameplay Cards](http://143.110.159.168:8083/og)
