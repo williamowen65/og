@@ -22,6 +22,7 @@ node {
        sh 'npm install --legacy-peer-deps'
       //  sh 'git commit -am "Jenkins updating docs folder for github pages"'
        sh 'npm run build'
+       sh 'git status'
        sh 'git config --global user.email "islandhopper152@gmail.com"'
        sh 'git config --global user.name "williamowen65"'
        sh 'git remote -v'
