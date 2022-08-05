@@ -42,6 +42,24 @@
       "background": {
         "color": {
           "main": "#222733",
+          "window": "linear-gradient(55deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 85%)"
+        }
+      }
+    },
+    "dark2": {
+      "logoTint": "#",
+      "color": {
+        "highlight": "hsl(40, 100%, 68%)",
+        "highlight_2": "#fbdd7d",
+        "white": "#d9d7ce",
+        "offwhite": "#d9d7c3",
+        "title": "#ffffff",
+        "main": "#6cd0e6",
+        "mainOffset": "#d6d0f3"
+      },
+      "background": {
+        "color": {
+          "main": "#222733",
           "window": "#1b1f28"
         }
       }

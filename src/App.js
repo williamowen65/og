@@ -59,9 +59,9 @@ export default function App(props) {
 }
 
 const Div = styled.div`
-  background-color: ${configValues.theme.dark.background.color.window};
+  background: ${configValues.theme.dark.background.color.window};
   main {
-    background-color: ${configValues.theme.dark.background.color.main};
+    /* background: ${configValues.theme.dark.background.color.main}; */
   }
   header {
     display: flex;
