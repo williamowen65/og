@@ -18,8 +18,8 @@ node {
       nodejs(nodeJSInstallationName: 'nodejs') {
        sh 'npm install --legacy-peer-deps'
        sh 'npm run build'
-       sh 'git config --global user.email "jenkins@donotreply.com"'
-       sh 'git config --global user.name "jenkins/williamowen"'
+       sh 'git config --global user.email "islandhopper152@gmail.com"'
+       sh 'git config --global user.name "williamowen65"'
        sh 'git remote -v'
        sh 'git switch main'
        sh 'git branch'
