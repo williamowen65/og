@@ -29,7 +29,7 @@ node {
        sh 'git remote -v'
        sh 'git branch'
        sh 'git commit -am "Jenkins updating docs folder for github pages"'
-       sh 'git push -u origin main'
+       sh 'git push -u origin main --force'
 
      }
    } 
