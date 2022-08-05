@@ -42,14 +42,14 @@ export default function App(props) {
         <Header>Outside.games </Header>
         <MainContainer className="main">
           <Routes>
-            <Route path="/og" element={<Home />} />
+            <Route path="/" element={<Home />} />
             {configValues.specialFeatures.auth && <Route path="/auth" element={<Login />} />}
             {configValues.specialFeatures.showFeatures && <Route path='/features' element={<Features />} />}
             <Route path={"/about"} element={<About />} />
             <Route path="*" element={(() => {
               return (
                 //temp from '/' for githubpages
-                <Navigate to="/og" replace={true} />
+                <Navigate to="/" replace={true} />
               )
             })()}>
             </Route>
