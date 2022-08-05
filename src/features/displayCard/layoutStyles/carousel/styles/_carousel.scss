@@ -287,6 +287,7 @@ body {
           width: 278px;
           overflow-y: scroll;
           height: 100%;
+          padding: 29px 0;
 
           // direction: ltr;
           &::-webkit-scrollbar {
@@ -322,7 +323,6 @@ body {
           // }
           h4 {
             font-size: 25px;
-            margin-top: 29px;
             margin-bottom: 0;
             &.sub {
               margin-top: 0;

@@ -230,6 +230,7 @@ body {
   width: 278px;
   overflow-y: scroll;
   height: 100%;
+  padding: 29px 0;
 }
 .carousel section .projectCard.card .details::-webkit-scrollbar {
   display: none;
@@ -241,7 +242,6 @@ body {
 }
 .carousel section .projectCard.card .details h4 {
   font-size: 25px;
-  margin-top: 29px;
   margin-bottom: 0;
 }
 .carousel section .projectCard.card .details h4.sub {
