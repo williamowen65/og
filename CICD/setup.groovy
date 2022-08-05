@@ -13,11 +13,7 @@ pipelineJob('outside-games') {
         }
     }
     triggers {
-        // githubPush()
-        buildResult('* * * * *')
-        pollSCM{
-            scmpoll_spec('* * * * *')
-        }
+        githubPush()
     }
 
 }
