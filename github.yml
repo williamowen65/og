@@ -1,6 +1,6 @@
 name: 'Build Docs'
 
-on:
+on: push
   workflow_dispatch:
   push:
     branches:
