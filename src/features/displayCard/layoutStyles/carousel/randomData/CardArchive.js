@@ -10,8 +10,21 @@ export const allCards = [
   (() => {
 
     const UniqueCardStyle = styled.div`
+ 
       h4 {
         color: red !important
+      }
+      code{
+        text-align: left !important;
+        display: flex !important;
+        flex-direction: column !important;
+        code {
+          transform: translateX(50px);
+        }
+        p {
+          margin: 0 auto !important;
+          user-select: text !important;
+        }
       }
     `
     return (<Card
@@ -34,8 +47,39 @@ export const allCards = [
         <p>Create 5 cards!</p>
         <p>Follow the link and commit your changes.</p>
         <p>That's it. </p>
+
+        <hr />
+        <h5>Card component template</h5>
+        <code>
+
+          <p>&lt;<b>Card</b></p>
+          <span style={{ transform: 'translateX(18px)' }}>
+
+            <p><b>title</b>="Title Of Card"</p>
+            <p><b>imgSrc</b>={`{(<img
+    src='https://image_url'
+    />
+    )}`}</p>
+            <p><b>pretext</b>="text on front of card"</p>
+            <p><b>attributes</b>=[A.STRENGTH, A.APTITUDE]</p>
+            <p><b>link</b>="url for call to action and the little earth logo"</p>
+            <p><b>callToAction</b>="This is the button text on a focused card"</p>
+            <p><b>id</b>={`{`}idGen.next().value{"}"}</p>
+            <p>&gt;</p>
+            <code>
+              &lt;h4&gt;Inside card title&lt;/h4&gt; <br />
+              &lt;p&gt;Any card instructions&lt;/p&gt;<br />
+              &lt;p&gt;Add multiple paragraphs&lt;/p&gt;<br />
+              &lt;p&gt;Explore W3Schools for more html info&lt;/p&gt;<br />
+              &lt;p&gt;Customize the inside of the card with CSS. <br />See this card's code as an example&lt;/p&gt;<br />
+            </code>
+          </span>
+          <p>&lt;/<b>Card</b>&gt;</p>
+        </code>
+
+
       </UniqueCardStyle>
-    </Card>)
+    </Card >)
   })(),
 
 

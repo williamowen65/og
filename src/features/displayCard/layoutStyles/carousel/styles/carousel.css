@@ -250,7 +250,7 @@ body {
 .carousel section .projectCard.card .details p {
   white-space: pre-wrap;
   margin: 15px auto;
-  width: 200px;
+  width: 239px;
 }
 .carousel section .projectCard.card .details p:not(.author) {
   line-height: 18px;
